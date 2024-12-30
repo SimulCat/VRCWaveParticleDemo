@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d172647e9c9c7740bb38a50bb367fe6
+guid: 2e0df7ca3c27f324a8c322971699bf3e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -51,7 +51,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
+  alphaUsage: 2
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -65,15 +65,15 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
-    resizeAlgorithm: 0
+    maxTextureSize: 128
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
-    compressionQuality: 80
+    compressionQuality: 50
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
@@ -87,7 +87,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -100,7 +100,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -113,7 +113,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0

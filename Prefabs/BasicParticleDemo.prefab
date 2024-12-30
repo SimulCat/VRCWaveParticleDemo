@@ -91,10 +91,10 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 8377627374351560427}
   probabilityCRT: {fileID: 8600000, guid: e8e7dd6a3b595d746b22a8beea84d7d4, type: 2}
-  simSize: {x: 2.56, y: 1.6}
+  simSize: {x: 3.2, y: 1.6}
   showProbability: 1
   probVisPercent: 45
-  simPixels: {x: 1280, y: 800}
+  simPixels: {x: 1600, y: 800}
   texName: _MomentumMap
   particleMeshRend: {fileID: 710806622275542295}
   visibility: 1
@@ -191,7 +191,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7669923667181954936}
-  m_Mesh: {fileID: 4300000, guid: 34cf2552eb5ffa6499299f8517158697, type: 2}
+  m_Mesh: {fileID: 4300000, guid: fb378ca5223f89344be5d239bda90f47, type: 2}
 --- !u!23 &1576240192879398538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -341,10 +341,10 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 1572056966582628312}
-  meshDimensions: {x: 2.56, y: 1.6, z: 0.1}
+  meshDimensions: {x: 3.2, y: 1.6, z: 0.1}
   isRectangular: 0
   centerArrayOrigin: 1
-  pointsAcross: {x: 192, y: 120, z: 1}
+  pointsAcross: {x: 240, y: 120, z: 1}
   snapOrigin: 1
   material: {fileID: 2100000, guid: 7bdd3941d97cc4941b0065abb65aa7b1, type: 2}
   arraySpacing: {x: 0, y: 0, z: 0}
@@ -388,6 +388,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1799513649419335337}
     m_Modifications:
+    - target: {fileID: 372872178764309034, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf7fca9a43eb6ef40a289d20fdfd20d1,
+        type: 3}
     - target: {fileID: 582245427399024039, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -399,6 +405,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 718822056910145943, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
+    - target: {fileID: 1543492524663938194, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+      propertyPath: SliderClient
+      value: 
+      objectReference: {fileID: 8377627374351560427}
     - target: {fileID: 1543492524663938194, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: serializationData.Prefab
@@ -416,6 +427,12 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 8377627374351560427}
+    - target: {fileID: 2378148819256005168, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea83e66e90b2f6a4da15ca3e2b797b23,
+        type: 3}
     - target: {fileID: 3469448073072257028, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -575,6 +592,18 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6975607885941860303, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+    - target: {fileID: 8322766634313539234, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf7fca9a43eb6ef40a289d20fdfd20d1,
+        type: 3}
+    - target: {fileID: 8930345098987088950, guid: 77f3560fbb72a7c49be205f584057102,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea83e66e90b2f6a4da15ca3e2b797b23,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

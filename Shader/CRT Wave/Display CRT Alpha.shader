@@ -3,8 +3,6 @@ Shader "SimulCat/Wave/Display from Phase CRT"
     Properties
     {
         _MainTex ("CRT Texture", 2D) = "grey" {}
-        _IdleTex ("Idle Wallpaper", 2D) = "grey" {}
-        _IdleColour ("Idle Shade",color) = (0.5,0.5,0.5,1)
 
         _ShowReal("Show Real", float) = 0
         _ShowImaginary("Show Imaginary", float) = 0
@@ -54,10 +52,6 @@ Shader "SimulCat/Wave/Display from Phase CRT"
             float4 _MainTex_ST;
             float4 _MainTex_TexelSize;
 
-            sampler2D _IdleTex;
-            float4 _IdleTex_ST;
-            float4 _IdleColour;
-
             float _ScaleAmplitude;
             float _ScaleEnergy;
             float _Brightness;
@@ -78,10 +72,7 @@ Shader "SimulCat/Wave/Display from Phase CRT"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                if (_ShowReal <= 0 && _ShowImaginary <= 0)
-                    o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                else
-                    o.uv = TRANSFORM_TEX(v.uv, _IdleTex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
             }
 
@@ -93,9 +84,6 @@ Shader "SimulCat/Wave/Display from Phase CRT"
                 fixed4 col = _ColorNeg;
                 if (!(displayReal || displayIm))
                 {
-                    fixed4 sample = tex2D(_IdleTex, i.uv);
-                    col.rgb = sample.rgb * _IdleColour;
-                    col.a = sample.r * _IdleColour.a;
                     return col;
                 }
                             // sample the texture
