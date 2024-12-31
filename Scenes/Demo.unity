@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1.18
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.085395165, g: 0.11195649, b: 0.1792453, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 25510d1dc6fbad04d8ad3c3f9fd01e4f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 50064d89f4bbc5a4d9fa7a1fdc4170a8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -97,9 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 33616db4c8d6f024799401fc653b7772,
+  m_LightingDataAsset: {fileID: 112000000, guid: 5691255f822595645b7de6b6d14ebde7,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 7774fab823fc47d4283c662c6d671e8d,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: d2d9e78951fa832438c37d92912c2a29,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -291,7 +291,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1111,7 +1111,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 46cdad1841123384aa8a24fe5e4918cd, type: 2}
+  - {fileID: 2100000, guid: 11fd257dc12e8de4ab0ea0d0d5d4d81b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
