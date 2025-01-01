@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Prob CRT
-  m_Shader: {fileID: 4800000, guid: b0e7d5a31bdacb74f875029f845c4e00, type: 3}
+  m_Name: BasicWave_Display
+  m_Shader: {fileID: 4800000, guid: 0eb0e8585d06c9d4eac4fff7f517a976, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -48,14 +48,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8600000, guid: 1d34315785963a8419aa8ac85bac936a, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MomentumMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -69,49 +65,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BeamWidth: 66.25
-    - _Brightness: 4.5
+    - _Brightness: 0.163
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DisplayMode: 0
     - _DstBlend: 0
     - _Frequency: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GratingOffset: 0
-    - _Lambda: 0
-    - _LambdaPx: 30
-    - _MapMaxI: 255.00002
-    - _MapMaxP: 49.999996
     - _Metallic: 0
     - _Mode: 0
-    - _NumSources: 2
     - _OcclusionStrength: 1
-    - _OutputRaw: 1
     - _Parallax: 0.02
-    - _ParticleP: 16.094275
-    - _Phase: 0
-    - _SamplesPerSlit: 7.2
-    - _Scale: 1.1222024
-    - _ShowBeam: 0.2
-    - _SlitCount: 2
-    - _SlitPitch: 50
-    - _SlitPitchPx: 364.22433
-    - _SlitWidePx: 5
-    - _SlitWidth: 12.5
+    - _ScaleAmplitude: 80
+    - _ScaleEnergy: 80
+    - _ShowImaginary: 0
+    - _ShowReal: 1
+    - _ShowSquare: 1
     - _SmoothnessTextureChannel: 0
-    - _SourceResolution: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.7394861, g: 1, b: 0.2, a: 1}
-    - _ColorFlow: {r: 0.38431373, g: 1, b: 0.54509807, a: 1}
-    - _ColorNeg: {r: 0, g: 0.12161077, b: 0.3301887, a: 1}
-    - _ColorVel: {r: 1, g: 0.44313726, b: 0, a: 1}
+    - _Color: {r: 0.972549, g: 0.45490193, b: 0.3607843, a: 1}
+    - _ColorFlow: {r: 0.11764706, g: 0.4, b: 0.99215686, a: 1}
+    - _ColorNeg: {r: 0.11372549, g: 0.050980393, b: 0.30980393, a: 1}
+    - _ColorVel: {r: 0.5176471, g: 0.27450982, b: 0.99215686, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _IdleColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []

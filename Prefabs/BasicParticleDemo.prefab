@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 5980115229780662373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.91999996, y: 0.96797884, z: 1.1301551}
+  m_LocalPosition: {x: 0, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -122,9 +122,6 @@ MonoBehaviour:
   speedRangeSlider: {fileID: 2014511125078716099}
   shaderPlaying: 0
   particlePlayState: 1
-  crtUpdateRequired: 0
-  gratingUpdateRequired: 0
-  simPixelScale: 1
 --- !u!114 &8377627374351560427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,7 +526,7 @@ PrefabInstance:
     - target: {fileID: 6791376032473646854, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.13015513
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6791376032473646854, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
@@ -554,12 +551,12 @@ PrefabInstance:
     - target: {fileID: 6791376032473646854, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6791376032473646854, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.16797888
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6791376032473646854, guid: 77f3560fbb72a7c49be205f584057102,
         type: 3}
