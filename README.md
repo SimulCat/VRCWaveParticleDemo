@@ -18,4 +18,4 @@ Once the new assets are imported, three scenes should be available:
 - BasicParticleDemo: This simulation comprises two overlaid quantum scattering simulations generated from the same quantum scattering model.
   1. A particle scattering simulation that operates in two modes, pulsed and continuous.
   2. A probability density overlay.
-- DualDemo: This demonstration pairs the particle demonstration with a wave panel with matching dimensions. With Planck's constant for the particle simulation set to '1' and the wavelength for the wave simulation set to the inverse of the particle momentum, the two simulations independently produce the same scattering and energy distributions form the same aperture patterns.
+- DualDemo: This demonstration pairs the particle demonstration with a wave panel with matching dimensions. With Planck's constant for the particle simulation set to '1' and the wavelength for the wave simulation set to the inverse of the particle momentum, the two simulations independently produce the same scattering and energy distributions with the same aperture patterns.
