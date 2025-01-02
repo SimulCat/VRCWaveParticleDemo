@@ -14,7 +14,7 @@ With the base project established, clone and copy the repository code to the ass
 Once the new assets are imported, three scenes should be available:
 
 - BasicWavePanel: This contains an example of the 'trippy' wave interference panel as used in some of my worlds. The simulation uses a custom render texture to calculate a wave interference pattern's real and imaginary components in a single pass. The output texture is then displayed by a custom fragment shader that scrolls the phase to provide the illusion of wave motion.
-  ![Simulated Double Slit Pattern](https://simulcat.github.io/phasedemo/twinenergy.gif)
+  ![Simulated Double Slit Pattern](https://simulcat.github.io/blob/phasedemo/twinenergy.gif)
 - BasicParticleDemo: This simulation comprises two overlaid quantum scattering simulations generated from the same quantum scattering model.
   1. A particle scattering simulation that operates in two modes, pulsed and continuous.
   2. A probability density overlay.
