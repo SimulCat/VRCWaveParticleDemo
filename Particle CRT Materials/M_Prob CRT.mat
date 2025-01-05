@@ -91,10 +91,10 @@ Material:
     - _OcclusionStrength: 1
     - _OutputRaw: 1
     - _Parallax: 0.02
-    - _ParticleP: 16.094275
+    - _ParticleP: 45.45454
     - _Phase: 0
     - _SamplesPerSlit: 7.2
-    - _Scale: 1.1222024
+    - _Scale: 2
     - _ShowBeam: 0.2
     - _SlitCount: 2
     - _SlitPitch: 50
@@ -108,7 +108,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.7394861, g: 1, b: 0.2, a: 1}
+    - _Color: {r: 0.41818237, g: 0.2, b: 0.682936, a: 1}
     - _ColorFlow: {r: 0.38431373, g: 1, b: 0.54509807, a: 1}
     - _ColorNeg: {r: 0, g: 0.12161077, b: 0.3301887, a: 1}
     - _ColorVel: {r: 1, g: 0.44313726, b: 0, a: 1}
