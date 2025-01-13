@@ -74,7 +74,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Lambda: 70.41706
+    - _Lambda: 69.67698
     - _LambdaPx: 20.859776
     - _Metallic: 0
     - _Mode: 0
@@ -83,9 +83,9 @@ Material:
     - _OutputRaw: 1
     - _Parallax: 0.02
     - _Phase: 0
-    - _Scale: 8.767194
+    - _Scale: 7.862892
     - _SlitCount: 13
-    - _SlitPitch: 300.43387
+    - _SlitPitch: 212.36429
     - _SlitPitchPx: 151.72574
     - _SlitWidePx: 20
     - _SlitWidth: 12
