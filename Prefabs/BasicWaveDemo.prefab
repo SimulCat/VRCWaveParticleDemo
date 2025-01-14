@@ -2904,9 +2904,6 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 137873053813210311}
   simCRT: {fileID: 8600000, guid: 1d34315785963a8419aa8ac85bac936a, type: 2}
   thePanel: {fileID: 6385742222227292317}
-  speedSlider: {fileID: 1980322640562816325}
-  waveSpeed: 1
-  defaultSpeed: 10
   dt: 0.3
   togPlay: {fileID: 1464378038845477519}
   togPause: {fileID: 731748264274658126}
@@ -2918,6 +2915,8 @@ MonoBehaviour:
   togImPwr: {fileID: 6221696828302218365}
   togAmplitude: {fileID: 6015692936996230066}
   togProbability: {fileID: 4640345134463067942}
+  speedSlider: {fileID: 1980322640562816325}
+  waveSpeed: 1
   lambdaSlider: {fileID: 3249001596996064674}
   defaultLambda: 24
   lambda: 24

@@ -191,7 +191,6 @@ public class WavePanelControl : UdonSharpBehaviour
     {
         if (iHaveSimDisplay)
             matSimDisplay.SetFloat("_Frequency", playSim ?  waveSpeed * defaultLambda / lambda : 0f);
-        crtUpdateNeeded |= iHaveCRT;
     }
 
     float WaveSpeed
@@ -289,7 +288,6 @@ public class WavePanelControl : UdonSharpBehaviour
         {
             displayMode = value;
             updateDisplayTxture(displayMode);
-            crtUpdateNeeded |= iHaveCRT;
             switch (displayMode)
             {
                 case 0:
