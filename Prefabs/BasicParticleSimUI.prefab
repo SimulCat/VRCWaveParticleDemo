@@ -151,7 +151,6 @@ MonoBehaviour:
   minLambda: 20
   maxLambda: 100
   MAX_SLITS: 11
-  matWaveCRT: {fileID: 0}
   waveMeshScale: 1
   displayColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6414236772132917852
