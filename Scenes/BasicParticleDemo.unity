@@ -760,6 +760,16 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 710806622275542295, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 710806622275542295, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 949973326078664294, guid: d23f60950e9997a4d8c91027da438899,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -778,6 +788,21 @@ PrefabInstance:
     - target: {fileID: 1369498686148347953, guid: d23f60950e9997a4d8c91027da438899,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576240192879398538, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576240192879398538, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576240192879398538, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1799513649419335337, guid: d23f60950e9997a4d8c91027da438899,
@@ -962,6 +987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541555724806220196, guid: d23f60950e9997a4d8c91027da438899,
         type: 3}
+      propertyPath: isRectangular
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541555724806220196, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6541555724806220196, guid: d23f60950e9997a4d8c91027da438899,
@@ -1024,6 +1054,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8748896234543857785, guid: d23f60950e9997a4d8c91027da438899,
         type: 3}
+    - target: {fileID: 8933784908416181195, guid: d23f60950e9997a4d8c91027da438899,
+        type: 3}
+      propertyPath: setColour
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8933784908416181195, guid: d23f60950e9997a4d8c91027da438899,
         type: 3}
       propertyPath: serializationData.Prefab
