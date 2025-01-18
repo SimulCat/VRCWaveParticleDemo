@@ -2,17 +2,21 @@
 
 This repository contains a collection of assets and example scenes demonstrating how to build and recreate the wave and particle simulations used in VRChat worlds published by K_Cat (KilkennyCat).
 
-Currently, the repository contains three pre-configured scenes: BasicParticlePanel, BasicWavePanel, and DualDemo. 
-The first two scenes illustrate how to build separate particle and wave simulations; the third integrates them to demonstrate the correspondence between wave and particle scattering models side by side and as an overlay.
+The repository currently contains three pre-configured scenes: **BasicParticlePanel**, **BasicWavePanel**, and **DualDemo**. The first two illustrate how to build separate particle and wave simulations, while the third integrates them to demonstrate the correspondence between wave and particle scattering models side by side and as an overlay.
+
+## Technical notes:
+Because GPU compute shaders are not permitted in VRChat world projects, the assets here were built using a related component called a Custom Render Texture (CRT).
+This technique allows numerical solutions to be run on the GPU. The output is passed directly to rendering shaders as a render texture without requiring data to pass through the CPU.
+
+Another benefit is that, like a compute shader, the CRT can be run selectively, updating only when required, not every frame. This results in a very efficient model that allows these simulations to run on mobile devices and standalone VR headsets. 
 
 ## Prerequisite
 
-Begin a new VRChat world project (Unity 2022) with the VRCW Foundation package added. Once the project is loaded in the editor, install the TextmeshPro (Essentials) package from the package manager.
-Open the project (it will open with the VRCHat default world scene, open the package manager and then add TextmeshPro (Just the essentials), as this is used in the demo user interface.
+Begin a new VRChat world project (Unity 2022) with the VRCW Foundation package added. Open the project (it will open with the VRChat default world scene), navigate to the package manager, and then add TextMeshPro (just the essentials), as this is used in the demo user interface.
 
 ## Usage
 
-With the base project established, clone, then copy the contents of the cloned repository to the assets folder. 
+With the base project established, clone and then copy the contents of the cloned repository to the assets folder.
 
 Once the new assets are imported, three scenes should be available:
 
