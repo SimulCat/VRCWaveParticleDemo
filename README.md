@@ -1,15 +1,18 @@
-# PhaseDemo
+# VRChat Wave/Particle Demo
 
-A collection of assets to create animated (via scrolling phase) simulations of wave interference and diffraction in VRChat.
-The wave simulations use a technique involving scrolling the phase of a wave field to provide the illusion of wave motion, hence the name "PhaseDemo."
+This repository contains a collection of assets and example scenes demonstrating how to build and recreate the wave and particle simulations used in VRChat worlds published by K_Cat (KilkennyCat).
 
-## Prerequisite packages
+Currently, the repository contains three pre-configured scenes: BasicParticlePanel, BasicWavePanel, and DualDemo. 
+The first two scenes illustrate how to build separate particle and wave simulations; the third integrates them to demonstrate the correspondence between wave and particle scattering models side by side and as an overlay.
 
-Begin a new VRChat world project with the VRCW Foundation package selected. Once the project is loaded in the editor, install the TextmeshPro (Essentials) package from the package manager.
+## Prerequisite
+
+Begin a new VRChat world project (Unity 2022) with the VRCW Foundation package added. Once the project is loaded in the editor, install the TextmeshPro (Essentials) package from the package manager.
+Open the project (it will open with the VRCHat default world scene, open the package manager and then add TextmeshPro (Just the essentials), as this is used in the demo user interface.
 
 ## Usage
 
-With the base project established, clone and copy the repository code to the assets folder.
+With the base project established, clone, then copy the contents of the cloned repository to the assets folder. 
 
 Once the new assets are imported, three scenes should be available:
 
