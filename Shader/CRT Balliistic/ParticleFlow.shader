@@ -1,4 +1,4 @@
-Shader "SimulCat/Ballistic/Particle Scattering"
+Shader "SimulCat/Ballistic/Particle Scattering 2D"
 {
     Properties
     {
@@ -34,7 +34,11 @@ Shader "SimulCat/Ballistic/Particle Scattering"
 
     SubShader
     {
-        Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" "PreviewType"="Plane" }
+        Tags 
+        { 
+            "Queue"="Transparent" "IgnoreProjector"="True"  
+            "RenderType"="Transparent" "PreviewType"="Plane" 
+        }
         Blend One One
         LOD 100
         Cull Off
@@ -51,18 +55,12 @@ Shader "SimulCat/Ballistic/Particle Scattering"
 		    //#include "../include/spectrum_zucconi.cginc"
 		    #include "../include/pcg_hash.cginc"
 
-            #define ObjectScale length(unity_ObjectToWorld._m00_m10_m20)
-
-            #define ObjectScaleVec float3( \
-                length(unity_ObjectToWorld._m00_m10_m20),\
-                length(unity_ObjectToWorld._m01_m11_m21),\
-                length(unity_ObjectToWorld._m02_m12_m22))
-
             struct appdata
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
 				uint id : SV_VertexID;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct v2f
@@ -70,6 +68,8 @@ Shader "SimulCat/Ballistic/Particle Scattering"
                 float2 uv : TEXCOORD0;
                 float4 vertex : SV_POSITION;
                 float4 color : COLOR;
+    			UNITY_VERTEX_INPUT_INSTANCE_ID
+                UNITY_VERTEX_OUTPUT_STEREO
             };
             
             //#define M(U) tex2D(_MomentumMap, float2(U))
@@ -128,6 +128,9 @@ Shader "SimulCat/Ballistic/Particle Scattering"
             v2f vert (appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+    			UNITY_TRANSFER_INSTANCE_ID(v, o);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
                 
                 int slitCount = max(round(_SlitCount),1);
                 float slitPitchScaled = _SlitPitch/_Scale;
@@ -230,7 +233,7 @@ Shader "SimulCat/Ballistic/Particle Scattering"
                 //      3) Transform the result by the Projection matrix (UNITY_MATRIX_P) and we now have the billboarded vertex in clip space.
                 o.vertex = mul(UNITY_MATRIX_P,mul(UNITY_MATRIX_MV, camModelCentre) + camVertexOffset);
                 
-                //Standard code
+                //Non-billboard standard code
                 //o.vertex = UnityObjectToClipPos (v.vertex);
                 
                 o.color = float4(_Color.rgb,-.5 + posIsInside * 1.5);
@@ -240,6 +243,7 @@ Shader "SimulCat/Ballistic/Particle Scattering"
 
             fixed4 frag (v2f i) : SV_Target
             {
+		        UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
                 float4 col = tex2D(_MainTex, i.uv);
                 col.rgb *= i.color.rgb;
                 col.a *= i.color.a;
