@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ColourMap:
+        m_Texture: {fileID: 2800000, guid: be6019c8cc34dcd4f9d17acb3883cec0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MomentumMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: be6019c8cc34dcd4f9d17acb3883cec0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -77,9 +81,11 @@ Material:
     - _GratingOffset: 0
     - _MapMaxP: 1
     - _MarkerScale: 4.48
+    - _MaxParticleP: 1
     - _MaxScale: 5
     - _MaxVelocity: 1
     - _Metallic: 0
+    - _MinParticleP: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
