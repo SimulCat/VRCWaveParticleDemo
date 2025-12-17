@@ -69,7 +69,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BeamWidth: 66.25
+    - _BeamWidth: 53.25
     - _Brightness: 10
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -80,6 +80,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GratingDistance: 0
     - _GratingOffset: 0
     - _Lambda: 0
     - _LambdaPx: 30
@@ -91,24 +92,25 @@ Material:
     - _OcclusionStrength: 1
     - _OutputRaw: 1
     - _Parallax: 0.02
-    - _ParticleP: 18.49222
+    - _ParticleP: 45.454533
     - _Phase: 0
     - _SamplesPerSlit: 7.2
-    - _Scale: 2
+    - _Scale: 2.1565185
     - _ShowBeam: 0.2
     - _SlitCount: 2
     - _SlitPitch: 50
     - _SlitPitchPx: 364.22433
     - _SlitWidePx: 5
-    - _SlitWidth: 12.5
+    - _SlitWidth: 2.5000002
     - _SmoothnessTextureChannel: 0
     - _SourceResolution: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Visibility: 4.5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.3342124, g: 1, b: 0, a: 1}
+    - _Color: {r: 0.3430101, g: 0, b: 0.8006716, a: 1}
     - _ColorFlow: {r: 0.38431373, g: 1, b: 0.54509807, a: 1}
     - _ColorNeg: {r: 0, g: 0.12161077, b: 0.3301887, a: 1}
     - _ColorVel: {r: 1, g: 0.44313726, b: 0, a: 1}

@@ -63,7 +63,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
+    m_Ints:
+    - _SlitCount: 2
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -74,7 +75,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Lambda: 27.038399
+    - _Lambda: 11.000002
     - _LambdaPx: 20.859776
     - _Metallic: 0
     - _Mode: 0
@@ -83,12 +84,12 @@ Material:
     - _OutputRaw: 1
     - _Parallax: 0.02
     - _Phase: 0
-    - _Scale: 2
+    - _Scale: 2.5268536
     - _SlitCount: 2
-    - _SlitPitch: 50
+    - _SlitPitch: 72.290535
     - _SlitPitchPx: 151.72574
     - _SlitWidePx: 20
-    - _SlitWidth: 12.5
+    - _SlitWidth: 14.358786
     - _SmoothnessTextureChannel: 0
     - _SourceResolution: 0.5
     - _SpecularHighlights: 1
