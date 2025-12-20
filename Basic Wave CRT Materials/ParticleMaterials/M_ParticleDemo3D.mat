@@ -99,7 +99,7 @@ Material:
     - _MapMaxP: 1
     - _MapMaxPx: 1
     - _MapMaxPy: 1
-    - _MarkerScale: 0.1
+    - _MarkerScale: 0.2
     - _MaxParticleP: 1
     - _MaxScale: 5
     - _MaxVelocity: 1.5
