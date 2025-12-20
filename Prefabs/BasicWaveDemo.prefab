@@ -446,8 +446,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 4834730912395059209}
   m_HandleRect: {fileID: 6794747813254896622}
   m_Direction: 2
-  m_MinValue: 0
-  m_MaxValue: 300
+  m_MinValue: 250
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 250
   m_OnValueChanged:
@@ -493,6 +493,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 1
+  displayScale: 1
   sliderUnit: <br>mm
   SliderClient: {fileID: 137873053813210311}
   clientVariableName: slitPitch
@@ -2485,7 +2486,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 2
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2529,6 +2530,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 0
+  displayScale: 1
   sliderUnit: 
   SliderClient: {fileID: 137873053813210311}
   clientVariableName: waveSpeed
@@ -2917,7 +2919,7 @@ MonoBehaviour:
   togProbability: {fileID: 4640345134463067942}
   speedSlider: {fileID: 1980322640562816325}
   waveSpeed: 1
-  lambdaSlider: {fileID: 3249001596996064674}
+  momentumSlider: {fileID: 0}
   defaultLambda: 24
   lambda: 24
   pitchSlider: {fileID: 505269652326593523}
@@ -3796,7 +3798,7 @@ MonoBehaviour:
   m_MinValue: 10
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 24
+  m_Value: 10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3840,6 +3842,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 1
+  displayScale: 1
   sliderUnit: mm
   SliderClient: {fileID: 137873053813210311}
   clientVariableName: lambda
@@ -3960,7 +3963,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 5474003502028940271}
   m_HandleRect: {fileID: 8606447463159024758}
   m_Direction: 0
-  m_MinValue: 2
+  m_MinValue: 1
   m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 30
@@ -4007,6 +4010,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 1
+  displayScale: 1
   sliderUnit: '%'
   SliderClient: {fileID: 137873053813210311}
   clientVariableName: contrastVal
@@ -5859,8 +5863,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1397426194961394660}
   m_HandleRect: {fileID: 7043408111984116404}
   m_Direction: 0
-  m_MinValue: 1
-  m_MaxValue: 10
+  m_MinValue: 10
+  m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 10
   m_OnValueChanged:
@@ -5906,6 +5910,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 1
+  displayScale: 1
   sliderUnit: ' : 1'
   SliderClient: {fileID: 137873053813210311}
   clientVariableName: simScale

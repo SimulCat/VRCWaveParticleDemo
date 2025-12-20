@@ -107,11 +107,11 @@ MonoBehaviour:
   pulseWidth: 1
   speedRange: 10
   simScale: 0
-  displayColor: {r: 0, g: 1, b: 1, a: 1}
-  maxParticleK: 10
-  minParticleK: 1
-  setColour: 0
-  particleK: 1
+  displayColour: {r: 0, g: 1, b: 1, a: 1}
+  maxParticleP: 10
+  minParticleP: 1
+  updateColour: 0
+  particleP: 1
   togPlay: {fileID: 7795174969571014305}
   togPause: {fileID: 4401196151385000537}
   togShowHide: {fileID: 1708525694364007006}
@@ -343,14 +343,8 @@ MonoBehaviour:
   centerArrayOrigin: 1
   pointsAcross: {x: 240, y: 120, z: 1}
   snapOrigin: 1
-  material: {fileID: 2100000, guid: 7bdd3941d97cc4941b0065abb65aa7b1, type: 2}
-  arraySpacing: {x: 0, y: 0, z: 0}
-  arrayRadius: 0
-  arrayOrigin: {x: 0, y: 0, z: 0}
   useTriangles: 1
-  numDecals: 0
-  numVertices: 0
-  numTriangles: 0
+  material: {fileID: 2100000, guid: 7bdd3941d97cc4941b0065abb65aa7b1, type: 2}
 --- !u!114 &1572056966582628312
 MonoBehaviour:
   m_ObjectHideFlags: 0

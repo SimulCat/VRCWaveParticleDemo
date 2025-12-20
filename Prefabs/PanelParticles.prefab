@@ -332,9 +332,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6606523643526328197}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 33
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 3
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -378,6 +378,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 0
+  displayScale: 1
   sliderUnit: '%'
   SliderClient: {fileID: 0}
   clientVariableName: speedRange
@@ -3307,7 +3308,7 @@ MonoBehaviour:
   m_MinValue: 2
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 20
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3351,6 +3352,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 1
+  displayScale: 1
   sliderUnit: '%'
   SliderClient: {fileID: 0}
   clientVariableName: probVisPercent
@@ -3567,10 +3569,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 2340849375107396286}
   m_HandleRect: {fileID: 7252289380860255564}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.1
   m_MaxValue: 3
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3614,6 +3616,7 @@ MonoBehaviour:
   hideLabel: 0
   unitsInteger: 0
   displayInteger: 0
+  displayScale: 1
   sliderUnit: Sec
   SliderClient: {fileID: 0}
   clientVariableName: pulseWidth

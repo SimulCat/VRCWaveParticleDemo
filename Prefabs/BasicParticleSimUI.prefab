@@ -133,16 +133,16 @@ MonoBehaviour:
   waveCrtSizePx: {x: 1024, y: 640}
   waveCrtDims: {x: 2.56, y: 1.6}
   waveDemo: {fileID: 0}
-  controlScale: 0.001
+  mmToMetres: 0.001
   slitCount: 2
   slitWidth: 25
   slitPitch: 100
   simScale: 2
-  momentum: 6
+  particleP: 0
   lambda: 22
   pitchSlider: {fileID: 6843854564856058403}
   widthSlider: {fileID: 1732122670298836705}
-  lambdaSlider: {fileID: 718822056910145943}
+  momentumSlider: {fileID: 0}
   scaleSlider: {fileID: 5359881747240013062}
   lblMomentum: {fileID: 0}
   waveSpeed: 55
@@ -151,6 +151,7 @@ MonoBehaviour:
   minLambda: 20
   maxLambda: 100
   MAX_SLITS: 11
+  minMaxMomentum: {x: 1, y: 10}
   waveMeshScale: 1
   displayColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &6414236772132917852
@@ -673,18 +674,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d150092d5c50d48afe4cfa23d6526d, type: 3}
---- !u!114 &718822056910145943 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6387509754628046477, guid: d2d150092d5c50d48afe4cfa23d6526d,
-    type: 3}
-  m_PrefabInstance: {fileID: 5862906738795755290}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa412dc0e73a76849ad79c183efeaf21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1732122670298836705 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5283996669430077947, guid: d2d150092d5c50d48afe4cfa23d6526d,

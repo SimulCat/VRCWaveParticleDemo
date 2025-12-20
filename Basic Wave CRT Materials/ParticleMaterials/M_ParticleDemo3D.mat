@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SuperSampledUI
-  m_Shader: {fileID: 4800000, guid: 44c1b7c3827912f45b473dbe106c1ecf, type: 3}
+  m_Name: M_ParticleDemo3D
+  m_Shader: {fileID: 4800000, guid: 28986684590e85c4284b59b572a63bbd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,8 +23,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2e0df7ca3c27f324a8c322971699bf3e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColourMap:
+        m_Texture: {fileID: 2800000, guid: 6613867de5ff0154f93275783395d0fd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -44,10 +52,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fab1112e64c055448bfb6c50a1934013, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2e0df7ca3c27f324a8c322971699bf3e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MomentumMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MomentumMapX:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MomentumMapY:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -59,32 +79,61 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
+    m_Ints:
+    - _Play: 0
+    - _RowCount: 1
+    - _SlitCount: 3
     m_Floats:
+    - _BaseTime: 0
+    - _BeamHeight: 0.2
+    - _BeamWidth: 0.2
     - _BumpScale: 1
-    - _ColorMask: 15
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GratingDistance: 0
+    - _GratingOffset: 0.3
+    - _MapMaxP: 1
+    - _MapMaxPx: 1
+    - _MapMaxPy: 1
+    - _MarkerScale: 0.1
+    - _MaxParticleP: 1
+    - _MaxScale: 5
+    - _MaxVelocity: 1.5
     - _Metallic: 0
+    - _MinParticleP: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _ParticleP: 1
+    - _PauseTime: 0
+    - _Play: 0
+    - _PulseWidth: -1
+    - _PulseWidthMax: 1.5
+    - _RowCount: 1
+    - _RowPitch: 0.3
+    - _Scale: 1
+    - _ScreenDistance: 0
+    - _ScreenOffset: 5
+    - _SlitCount: 2
+    - _SlitHeight: 0.05
+    - _SlitPitch: 0.3
+    - _SlitWidth: 0.05
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SpeedRange: 0.127
     - _SrcBlend: 1
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
+    - _TargetOffset: 3.84
     - _UVSec: 0
-    - _UseUIAlphaClip: 0
+    - _Visibility: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ArrayDimension: {r: 33, g: 9, b: 9, a: 2673}
+    - _ArraySpacing: {r: 0.25, g: 0.25, b: 0.25, a: 0}
+    - _Color: {r: 0, g: 1, b: 0.93238735, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WallLimits: {r: 5, g: 2, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -95,7 +95,7 @@ Material:
     - _ParticleP: 45.454533
     - _Phase: 0
     - _SamplesPerSlit: 7.2
-    - _Scale: 2.1565185
+    - _Scale: 10
     - _ShowBeam: 0.2
     - _SlitCount: 2
     - _SlitPitch: 50
